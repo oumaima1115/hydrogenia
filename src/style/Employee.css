@@ -1,0 +1,36 @@
+.employee-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-image img {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.employee-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-info h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.employee-info p {
+    margin-top: 8px;
+    color: gray;
+    font-size: 16px;
+}
